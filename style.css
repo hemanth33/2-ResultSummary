@@ -1,0 +1,185 @@
+html,
+      body {
+        height: 100%;
+        font-family: "Hanken Grotesk", sans-serif;
+        color: hsl(0, 0%, 100%);
+      }
+     
+      .main-container {
+        background-color: hsl(221, 100%, 96%);
+        width: 55%;
+        height: 70%;
+        margin: 10% auto;
+        border-radius: 6%;
+        display: flex;
+      }
+
+      .first-class {
+        width: 50%;
+        height: 100%;
+        background-image: linear-gradient(
+          hsl(252, 100%, 67%),
+          hsl(241, 81%, 54%)
+        );
+        border-radius: 6%;
+        text-align: center;
+      }
+
+      .result {
+        position: relative;
+        top: 8%;
+      }
+
+      .circle {
+        position: relative;
+        width: 50%;
+        height: 40%;
+        background-image: linear-gradient(
+          hsla(256, 72%, 46%, 1),
+          hsla(241, 72%, 46%, 0)
+        );
+        top: 10%;
+        left: 25%;
+        border-radius: 100%;
+      }
+
+      .score {
+        position: relative;
+        top: 30%;
+        font-weight: 700;
+        font-size: 3em;
+      }
+
+      .outof {
+        position: relative;
+        top: 15%;
+        color: hsl(224, 30%, 27%);
+        font-weight: 700;
+        font-size: 1em;
+      }
+
+      .great {
+        position: relative;
+        top: 10%;
+        font-size: 2em;
+      }
+
+      .percentaile {
+        position: relative;
+        width: 65%;
+        top: 5%;
+        font-size: 1em;
+        margin: auto;
+        padding-top: 35px;
+      }
+
+      .second-class {
+        width: 50%;
+        height: 100%;
+      }
+
+      .summary {
+        position: relative;
+        color: black;
+        left: 7%;
+        top: 8%;
+      }
+
+      .fourblocks {
+        position: relative;
+        width: 80%;
+        height: 60%;
+        top: 11%;
+        left: 7%;
+      }
+
+      .firstblock {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 20%;
+        background-color: hsla(0, 100%, 67%, 0.25);
+        border-radius: 5%;
+      }
+
+      .secondblock {
+        display: flex;
+        position: relative;
+        top: 5%;
+        width: 100%;
+        height: 20%;
+        background-color: hsla(39, 100%, 56%, 0.25);
+        border-radius: 5%;
+      }
+
+      .thirdblock {
+        display: flex;
+        position: relative;
+        top: 10%;
+        width: 100%;
+        height: 20%;
+        background-color: hsla(166, 100%, 37%, 0.25);
+        border-radius: 5%;
+      }
+
+      .fourthblock {
+        display: flex;
+        top: 15%;
+        position: relative;
+        width: 100%;
+        height: 20%;
+        background-color: hsla(234, 85%, 45%, 0.25);
+        border-radius: 5%;
+      }
+
+      .button {
+        position: relative;
+        top: 15%;
+        left: 40%;
+      }
+
+      img {
+        position: relative;
+        width: 10%;
+        left: 5%;
+      }
+
+      .category {
+        position: relative;
+        left: 20%;
+      }
+
+      .Marks {
+        position: relative;
+        left: 50%;
+        color: black;
+      }
+
+      .btn {
+        height: 50%;
+        position: relative;
+        left: 23%;
+        top: 12%;
+      }
+
+      button {
+        width: 50%;
+        height: 20%;
+        border-radius: 10%;
+        font-family: "Hanken Grotesk", sans-serif;
+        background-color: hsl(224, 30%, 27%);
+        color: white;
+        font-weight: 800;
+        font-size: 1.1rem;
+      }
+
+      button:hover {
+        background-image: linear-gradient(
+          hsl(252, 100%, 67%),
+          hsl(241, 81%, 54%)
+        );
+
+        border: none;
+      }
+    
+    
